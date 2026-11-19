@@ -1,0 +1,21 @@
+{
+  "name": "als-donghaeng",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-19",
+  "keep_vars": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "donghaeng-db",
+      "database_id": "0ecd7caf-b017-4539-a42f-e1698b9d4a0f"
+    }
+  ],
+  "ai": {
+    "binding": "AI"
+  },
+  "triggers": {
+    "crons": [
+      "0 * * * *"
+    ]
+  }
+}
